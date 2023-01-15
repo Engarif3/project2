@@ -220,7 +220,7 @@ margin-left: 150px;
 
  /* ========================media querry starts here =================================================*/
 
- @media only screen and (max-width:576px) {
+ @media screen and (max-width:576px) {
     *{
         margin: auto;
     }
@@ -305,11 +305,14 @@ margin-left: 150px;
 
    .btn-big{
     bottom:115px;
-    left: 125px;
+    left: 80px;
  }
 
    .icons{
     margin-top: -10px;
+   }
+   .icons>h1{
+    margin-left: 95px;
    }
    .icons p{
     text-align: center;
